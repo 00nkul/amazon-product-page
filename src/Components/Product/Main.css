@@ -1,0 +1,72 @@
+.main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.productInfo {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.productInfo a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.ratings {
+    gap: 10px;
+}
+
+.ratings p {
+    margin-bottom: 0px;
+    color: #007185;
+}
+
+.pName {
+    font-size: 24px;
+}
+
+.stars {
+    font-size: 1.5em;
+}
+
+.stars .star {
+    color: goldenrod;
+}
+
+.price p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.discount {
+    color: red;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sellP {
+    font-size: 28px;
+}
+
+.offerCards {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height:auto;
+}
+
+.icOffers span{
+    font-size: 12px;
+}
+.colorImages{
+    display: flex;
+    gap: 20px;
+}
+.colorImages img:hover {
+    border: 2px solid yellow;
+    border-radius: 2px;
+}

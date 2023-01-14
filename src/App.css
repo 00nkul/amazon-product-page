@@ -1,0 +1,52 @@
+.nav_3{
+    font-size: 12px;
+}
+.nav_3  span :hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.qnaSearch {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 555px;
+    background-color: rgb(146, 146, 146);
+}
+
+.qnaSearchbar {
+    height: 25px;
+    /* background-color: rgb(146, 146, 146); */
+    padding: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.qnaSearchIcon {
+    cursor: pointer;
+    height: 25px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.productImageSmall{
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    border-radius: 5px;
+}
+
+.productImageSmall :hover{
+    cursor: pointer;
+    box-shadow: 0em 0em 1em red;;
+}
+
+.imageSmall{
+    border-radius: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    height: 50px;
+    width: 50px;
+}
+.popOut{
+    cursor: zoom-in;
+    overflow: hidden;
+}
